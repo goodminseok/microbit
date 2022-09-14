@@ -8,7 +8,7 @@ input.onGesture(Gesture.Shake, function () {
     basic.showLeds(`
         . . . . .
         . . . . .
-        . . # . .
+        . . . . .
         . . . . .
         . . . . .
         `)
@@ -19,11 +19,11 @@ input.onButtonPressed(Button.B, function () {
 let steps = 0
 steps = 0
 basic.showString("start")
-basic.showString("make a thumb")
+basic.showString("make a cat")
 basic.showLeds(`
-    # # . . .
-    # # . . .
-    # # # # .
-    # # # # .
-    # # # # .
+    . # . # .
+    . # . # .
+    # # # # #
+    # . # . #
+    # # # # #
     `)
